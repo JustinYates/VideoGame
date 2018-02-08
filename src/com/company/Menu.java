@@ -32,7 +32,7 @@ public class Menu {
                 case 6:
                     //view checked out games
                     break;
-                case 7:
+                case 7: System.exit(0);
                     //exiting program
                     break;
                 default:
