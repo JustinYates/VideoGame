@@ -5,10 +5,10 @@ import java.util.*;
 public class Library {
 
 Gametitles gametitles = new Gametitles();
+    ArrayList<String> installedGames = new ArrayList<>();
 
     protected void addGame(){
-        ArrayList<String> Installedgames = new ArrayList<String>();
-        Installedgames.add(gametitles.getBattleField());
-        Installedgames.add(gametitles.getCall_Of_Duty_BoII());
+        installedGames.add(gametitles.getBattleField());
+        installedGames.add(gametitles.getCall_Of_Duty_BoII());
     }
 }

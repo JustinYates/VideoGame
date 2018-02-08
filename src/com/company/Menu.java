@@ -13,6 +13,8 @@ public class Menu {
 
         System.out.println("Welcome to the Video game library, what would you like to do?     \n1. Add a game to the library   \n2. Remove a game from the library \n3. View what is currently in the library \n4. Check a game out \n5. Check a game in \n6. View checked out games \n7. Exit");
         try {
+            Library library = new Library();
+
             switch (input.nextInt()) {
                 case 1:
                     //add a game
@@ -20,7 +22,8 @@ public class Menu {
                 case 2:
                     //remove game
                     break;
-                case 3:
+                case 3: library.addGame();
+                System.out.println(library.installedGames);
                     //view library
                     break;
                 case 4:
