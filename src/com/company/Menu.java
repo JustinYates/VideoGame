@@ -11,7 +11,7 @@ public class Menu {
 
     public void startMenu() {
 
-        System.out.println("Welcome to the Video game library, what would you like to do?     \n1. Add a game to the library   \n2.remove a game from the library \n3. View what is currently in the library \n4. Check a game out \n15 Check a game in \n6.View checked out games \n7. Exit");
+        System.out.println("Welcome to the Video game library, what would you like to do?     \n1. Add a game to the library   \n2. Remove a game from the library \n3. View what is currently in the library \n4. Check a game out \n5. Check a game in \n6. View checked out games \n7. Exit");
         try {
             switch (input.nextInt()) {
                 case 1:
