@@ -17,7 +17,7 @@ public class Gametitles {
     private String Terraria;
 
     public String getCall_Of_Duty_BoII() {
-       return Call_Of_Duty_BoII;
+       return "Call Of Duty Bo2";
     }
 
     public void setCall_Of_Duty_BoII(String call_Of_Duty_BoII) {
@@ -25,7 +25,7 @@ public class Gametitles {
     }
 
     public String getMineCraft() {
-        return MineCraft;
+        return "MineCraft";
     }
 
     public void setMineCraft(String mineCraft) {
@@ -33,7 +33,7 @@ public class Gametitles {
     }
 
     public String getBattleField() {
-        return BattleField;
+        return "BattleField";
     }
 
     public void setBattleField(String battleField) {
@@ -41,7 +41,7 @@ public class Gametitles {
     }
 
     public String getDragonBallZfighters() {
-        return DragonBallZfighters;
+        return "DragonBall Z Fighters";
     }
 
     public void setDragonBallZfighters(String dragonBallZfighters) {
@@ -49,7 +49,7 @@ public class Gametitles {
     }
 
     public String getMortalKombat() {
-        return MortalKombat;
+        return "MortalKombat";
     }
 
     public void setMortalKombat(String mortalKombat) {
@@ -57,7 +57,7 @@ public class Gametitles {
     }
 
     public String getInjustice_2() {
-        return Injustice_2;
+        return "Injustice 2";
     }
 
     public void setInjustice_2(String injustice_2) {
@@ -65,7 +65,7 @@ public class Gametitles {
     }
 
     public String getTerraria() {
-        return Terraria;
+        return "Terraria";
     }
 
     public void setTerraria(String terraria) {

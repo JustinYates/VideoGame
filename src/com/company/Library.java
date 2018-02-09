@@ -10,5 +10,9 @@ Gametitles gametitles = new Gametitles();
     protected void addGame(){
         installedGames.add(gametitles.getBattleField());
         installedGames.add(gametitles.getCall_Of_Duty_BoII());
+        installedGames.add(gametitles.getDragonBallZfighters());
+        installedGames.add(gametitles.getMineCraft());
+        installedGames.add(gametitles.getTerraria());
+        installedGames.add(gametitles.getMortalKombat());
     }
 }
