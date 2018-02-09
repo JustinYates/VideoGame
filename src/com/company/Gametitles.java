@@ -17,7 +17,7 @@ public class Gametitles {
     private String Terraria;
 
     public String getCall_Of_Duty_BoII() {
-       return "Call Of Duty Bo2";
+        return "Call Of Duty Bo2";
     }
 
     public void setCall_Of_Duty_BoII(String call_Of_Duty_BoII) {
@@ -71,4 +71,6 @@ public class Gametitles {
     public void setTerraria(String terraria) {
         Terraria = terraria;
     }
+
+
 }

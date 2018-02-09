@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.*;
 
-public class Library {
+public class Library{
 
 Gametitles gametitles = new Gametitles();
     ArrayList<String> installedGames = new ArrayList<>();
