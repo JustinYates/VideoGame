@@ -39,7 +39,8 @@ public class Menu {
                     break;
                 case 3:
                     library.addGame();
-                    System.out.println(library.installedGames);
+                    System.out.println(library.installedGames + " are downloaded."); System.out.println();
+                    startMenu();
                     //view library
                     break;
                 case 4:
